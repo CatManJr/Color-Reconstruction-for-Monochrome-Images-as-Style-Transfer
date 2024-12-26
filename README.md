@@ -1,7 +1,7 @@
 # Color-Reconstruction-for-Monochrome-Images-as-Style-Transfer
 
 <details>
-<summary>切换至中文</summary>
+<summary>中文</summary>
 
 ## **`这是数字图像处理课程论文的代码仓库。`**
 
@@ -20,7 +20,7 @@ Stable Diffusion v1.4 的全部内容位于 `Stable Diffusion experiments&WebUI`
 </details>
 
 <details open>
-<summary>Switch to English</summary>
+<summary>English</summary>
 
 ## **`This is the code repository for the Digital Image Processing course paper.`**
 
