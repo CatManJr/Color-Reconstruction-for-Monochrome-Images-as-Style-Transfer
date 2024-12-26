@@ -1,9 +1,13 @@
+<h4 align="right"> 
+  <a href="./docs/README.md">English</a> 
+  <a href="./docs/README_ZH.md" style="margin: 0 10px;">简体中文</a>
+</h4>
+
 # Color-Reconstruction-for-Monochrome-Images-as-Style-Transfer
-
+### **`这是数字图像处理课程论文的代码仓库。`**
+### **`This is the code repository for the Digital Image Processing course paper.`**
 <details>
-<summary>简体中文</summary>
-
-## **`这是数字图像处理课程论文的代码仓库。`**
+<summary>中文</summary>
 
 ## 摘要：
 我探讨了仿照风格迁移的模式进行黑白图片色彩重建的应用可能性，在模型架构和推理上提出对该领域未来发展方向的思考。首先探索卷积神经网络（CNN）和ViT（视觉Transformers），如VGG-19，以及更先进的架构，ResNet和Swin Transformer，在风格迁移任务中的表现，然后进行更复杂的色彩重建实验。ResNet和Swin Transformer等图像分类SOTA网络在风格迁移和色彩重建任务中存在局限性，这些模型在提取特征时丢失了具象的风格信息，导致无法有效迁移艺术风格。此外，我们发现传统的卷积网络如VGG-19不仅能完成基本风格迁移任务，对简单物体黑白图片的色彩重建也令人满意，但不能很好地重建复杂图片的色彩。因此我们补充了多模态生成式模型的相关实验。在Stable Diffusion v1.4上实验表明生成式模型在色彩和内容质量上取得了显著突破，但在保持原图内容约束方面和生产强度的平衡问题上仍有优化空间。我们还搭建了基于VGG-19和SD v1.4的风格迁移/色彩重建用户端网页GUI应用。本研究的贡献在于探索了将色彩信息视为一种图片风格进行零样本风格迁移的可能性，并比较了深度特征提取网络与生成式方法在这一任务上的机制和性能差异。我们的工作不仅为黑白图像的色彩重建提供了新的视角，也为未来的风格迁移和图像转换技术的发展提供了有价值的参考。
@@ -19,10 +23,8 @@ Stable Diffusion v1.4 的全部内容位于 `Stable Diffusion experiments&WebUI`
 
 </details>
 
-<details open>
+<details open> <!-- 默认展开 -->
 <summary>English</summary>
-
-## **`This is the code repository for the Digital Image Processing course paper.`**
 
 ## Abstract:
 I explored the feasibility of colorizing black-and-white images by emulating style transfer and provided insights into possible directions for future research in model architecture and reasoning for this field. First, I investigated the performance of convolutional neural networks (CNNs) such as VGG-19 and more advanced architectures including ResNet and Swin Transformer in style transfer tasks, followed by more complex color reconstruction experiments. We found that state-of-the-art networks like ResNet and Swin Transformer show limitations in style transfer and colorization, because these models lose concrete style details while extracting features. Additionally, traditional convolutional neural networks such as VGG-19 not only complete basic style transfer tasks on black-and-white images with simple objects but also achieve decent color reconstruction, although they fail to handle more complicated images. We then supplemented our experiments with multimodal generative models. Experiments on Stable Diffusion v1.4 demonstrate significant breakthroughs in both colorization and content quality, but optimizing the balance between original content constraints and generation strength remains a challenge. We also built a user-facing web GUI application for style transfer/colorization based on VGG-19 and SD v1.4. Our contribution is exploring the possibility of treating color information as a style for zero-sample style transfer and comparing the mechanisms and performance of deep feature extraction networks and generative methods in this task. Our findings offer a new perspective for colorization of black-and-white images and provide valuable reference points for future development of style transfer and image transformation techniques.
